@@ -1,0 +1,6 @@
+background-color=#00000050
+text-color=#FFFFFF
+border-color=#3256A3
+default-timeout=5000
+max-visible=3
+output=DP-2

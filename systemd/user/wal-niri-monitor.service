@@ -1,0 +1,11 @@
+[Unit]
+Description=Monitor pywal colors for niri
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.config/niri/wal-monitor.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

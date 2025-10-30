@@ -1,0 +1,58 @@
+@import url("file:///home/kvdgs/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font Mono", monospace;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+#waybar {
+    color: @color15;
+    background-color: @background;
+}
+
+#workspaces button {
+    color: @color15;
+    padding: 1 0.7em;
+    margin: 0;
+    background-color: transparent;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+    background-color: @color1;
+}
+
+#workspaces button.active {
+    background-color: @color2;
+}
+
+#workspaces button.empty {
+    color: @color8;
+}
+
+#clock, #temperature, #memory, #wireplumber {
+    color: @foreground;
+}
+
+#wireplumber.muted {
+    color: @color8;
+}
+
+#temperature.critical {
+    color: @color1;
+}
+
+#tray {
+    color: @foreground;
+    padding-right: 1em;
+}
+
+#custom-separator {
+    color: @color8;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+}
